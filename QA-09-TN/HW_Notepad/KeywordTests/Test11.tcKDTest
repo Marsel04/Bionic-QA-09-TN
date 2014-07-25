@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="parameters">
+			<Prp name="key" type="S" value="{8006CF6D-283D-44B3-84D8-29F433A8A267}"/>
+		</Node>
+		<Node name="settings">
+			<Prp name="settingsversion" type="S" value="7.50"/>
+		</Node>
+		<Node name="testdata">
+			<Node name="children">
+				<Node name="child0">
+					<Node name="data">
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Count"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="-1"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="7"/>
+								<Prp name="defvaluevalue" type="B" value="0"/>
+								<Prp name="defvartype" type="I" value="11"/>
+								<Prp name="name" type="S" value="IgnoreRunning"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="7"/>
+								<Prp name="valuevalue" type="B" value="0"/>
+								<Prp name="vartype" type="I" value="11"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Timeout"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="-1"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="description" type="S" value="Runs the &quot;notepad&quot; tested application."/>
+						<Prp name="testedapp" type="S" value="notepad"/>
+					</Node>
+					<Prp name="type" type="S" value="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}"/>
+				</Node>
+				<Node name="child1">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.notepad.wndNotepad;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Item"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="File|Open..."/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Moves the mouse cursor to the menu item specified and then simulates a single click."/>
+						<Prp name="menutype" type="I" value="0"/>
+						<Prp name="updatepics" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}"/>
+				</Node>
+				<Node name="child10">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.notepad.wndNotepad;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="Close"/>
+						<Prp name="description" type="S" value="Closes the 'wndNotepad' window."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child2">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.notepad.dlgOpen;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="E:\Bionic-QA-09-TN\QA-09-TN\HW_Notepad\HW1.txt"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param2"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="Text Documents (*.txt)"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="OpenFile"/>
+						<Prp name="description" type="S" value="Opens the 'E:\Bionic-QA-09-TN\QA-09-TN\HW_Notepad\HW1.txt' file via the 'dlgOpen' dialog."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child3">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.notepad.wndNotepad.Edit;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="[Del][Del][Del][Del][Del][Del]"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Keys"/>
+						<Prp name="description" type="S" value="Enters '[Del][Del][Del][Del][Del][Del]' in the 'Edit' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child4">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.notepad.wndNotepad;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Item"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="File|Save"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Moves the mouse cursor to the menu item specified and then simulates a single click."/>
+						<Prp name="menutype" type="I" value="0"/>
+						<Prp name="updatepics" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}"/>
+				</Node>
+				<Node name="child5">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.notepad.wndNotepad;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="Close"/>
+						<Prp name="description" type="S" value="Closes the 'wndNotepad' window."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child6">
+					<Node name="data">
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Count"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="-1"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="7"/>
+								<Prp name="defvaluevalue" type="B" value="0"/>
+								<Prp name="defvartype" type="I" value="11"/>
+								<Prp name="name" type="S" value="IgnoreRunning"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="7"/>
+								<Prp name="valuevalue" type="B" value="0"/>
+								<Prp name="vartype" type="I" value="11"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Timeout"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="-1"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="description" type="S" value="Runs the &quot;notepad&quot; tested application."/>
+						<Prp name="testedapp" type="S" value="notepad"/>
+					</Node>
+					<Prp name="type" type="S" value="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}"/>
+				</Node>
+				<Node name="child7">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.notepad.wndNotepad;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Item"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="File|Open..."/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Moves the mouse cursor to the menu item specified and then simulates a single click."/>
+						<Prp name="menutype" type="I" value="0"/>
+						<Prp name="updatepics" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}"/>
+				</Node>
+				<Node name="child8">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.notepad.dlgOpen;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="E:\Bionic-QA-09-TN\QA-09-TN\HW_Notepad\HW1.txt"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param2"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="Text Documents (*.txt)"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="OpenFile"/>
+						<Prp name="description" type="S" value="Opens the 'E:\Bionic-QA-09-TN\QA-09-TN\HW_Notepad\HW1.txt' file via the 'dlgOpen' dialog."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child9">
+					<Node name="data">
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="expression" type="S" value="Aliases.notepad.wndNotepad.Edit.wText"/>
+								<Prp name="name" type="S" value="Property"/>
+								<Prp name="paramtype" type="S" value="{FC0DF733-E97F-46DD-8307-EA4DFF891298}"/>
+							</Node>
+							<Node name="parameter1">
+								<Node name="values">
+									<Prp name="value0type" type="I" value="1"/>
+									<Prp name="value0value" type="I" value="0"/>
+									<Prp name="value10type" type="I" value="1"/>
+									<Prp name="value10value" type="I" value="10"/>
+									<Prp name="value11type" type="I" value="1"/>
+									<Prp name="value11value" type="I" value="11"/>
+									<Prp name="value12type" type="I" value="1"/>
+									<Prp name="value12value" type="I" value="12"/>
+									<Prp name="value13type" type="I" value="1"/>
+									<Prp name="value13value" type="I" value="13"/>
+									<Prp name="value1type" type="I" value="1"/>
+									<Prp name="value1value" type="I" value="1"/>
+									<Prp name="value2type" type="I" value="1"/>
+									<Prp name="value2value" type="I" value="2"/>
+									<Prp name="value3type" type="I" value="1"/>
+									<Prp name="value3value" type="I" value="3"/>
+									<Prp name="value4type" type="I" value="1"/>
+									<Prp name="value4value" type="I" value="4"/>
+									<Prp name="value5type" type="I" value="1"/>
+									<Prp name="value5value" type="I" value="5"/>
+									<Prp name="value6type" type="I" value="1"/>
+									<Prp name="value6value" type="I" value="6"/>
+									<Prp name="value7type" type="I" value="1"/>
+									<Prp name="value7value" type="I" value="7"/>
+									<Prp name="value8type" type="I" value="1"/>
+									<Prp name="value8value" type="I" value="8"/>
+									<Prp name="value9type" type="I" value="1"/>
+									<Prp name="value9value" type="I" value="9"/>
+									<Prp name="valuetext0" type="S" value="cmpEqual"/>
+									<Prp name="valuetext1" type="S" value="cmpNotEqual"/>
+									<Prp name="valuetext10" type="S" value="cmpEndsWith"/>
+									<Prp name="valuetext11" type="S" value="cmpNotEndsWith"/>
+									<Prp name="valuetext12" type="S" value="cmpMatches"/>
+									<Prp name="valuetext13" type="S" value="cmpNotMatches"/>
+									<Prp name="valuetext2" type="S" value="cmpGreater"/>
+									<Prp name="valuetext3" type="S" value="cmpLess"/>
+									<Prp name="valuetext4" type="S" value="cmpGreaterOrEqual"/>
+									<Prp name="valuetext5" type="S" value="cmpLessOrEqual"/>
+									<Prp name="valuetext6" type="S" value="cmpContains"/>
+									<Prp name="valuetext7" type="S" value="cmpNotContains"/>
+									<Prp name="valuetext8" type="S" value="cmpStartsWith"/>
+									<Prp name="valuetext9" type="S" value="cmpNotStartsWith"/>
+								</Node>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Condition"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Value"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="world!"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Node name="parameter3">
+								<Prp name="defvaluetype" type="I" value="7"/>
+								<Prp name="defvaluevalue" type="B" value="-1"/>
+								<Prp name="defvartype" type="I" value="11"/>
+								<Prp name="name" type="S" value="CaseSensitive"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="7"/>
+								<Prp name="valuevalue" type="B" value="0"/>
+								<Prp name="vartype" type="I" value="11"/>
+							</Node>
+							<Node name="parameter4">
+								<Node name="values">
+									<Prp name="value0type" type="I" value="1"/>
+									<Prp name="value0value" type="I" value="0"/>
+									<Prp name="value1type" type="I" value="1"/>
+									<Prp name="value1value" type="I" value="1"/>
+									<Prp name="value2type" type="I" value="1"/>
+									<Prp name="value2value" type="I" value="2"/>
+									<Prp name="value3type" type="I" value="1"/>
+									<Prp name="value3value" type="I" value="3"/>
+									<Prp name="valuetext0" type="S" value="lmNone"/>
+									<Prp name="valuetext1" type="S" value="lmMessage"/>
+									<Prp name="valuetext2" type="S" value="lmWarning"/>
+									<Prp name="valuetext3" type="S" value="lmError"/>
+								</Node>
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="2"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="MessageType"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="2"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="description" type="S" value="Checks whether the property value matches the specified condition. "/>
+					</Node>
+					<Prp name="type" type="S" value="{9C6348D8-30A9-49C4-B62C-C7C750F009FF}"/>
+				</Node>
+				<Prp name="childcount" type="I" value="11"/>
+			</Node>
+			<Node name="data">
+				<Node name="extenders">
+					<Node name="{800193e8-4656-48c9-a7dc-10ff396c56a4}"/>
+				</Node>
+			</Node>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="key" type="S" value="{04F6F31D-58D6-4D3F-8FF4-E96CDDD4DD18}"/>
+			<Prp name="type" type="S" value="{79147B28-EE20-4294-B773-1D3787FBF37B}"/>
+		</Node>
+		<Node name="variables">
+			<Node name="datav3"/>
+			<Prp name="key" type="S" value="{CA91A1E6-BE7D-4A98-9FB5-E2BBA22C11CA}"/>
+			<Prp name="version" type="I" value="3"/>
+		</Node>
+		<Prp name="signature" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>

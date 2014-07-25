@@ -27,9 +27,62 @@
 				<Prp name="activity" type="S" value="{679C9172-8B92-4BE8-9668-4653B5D675C3}"/>
 				<Prp name="default project" type="S" value="{679C9172-8B92-4BE8-9668-4653B5D675C3}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{315a8885-5f56-4424-9513-2c711b35dd94}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
-				<Node name="workspace"/>
+				<Node name="workspace">
+					<Node name="0">
+						<Node name="editor">
+							<Node name="0"/>
+							<Prp name="editor" type="S" value="{D5118B8F-6015-49DC-B930-BC3B7282F036}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{81E872CD-7CFA-4A85-ABC8-522E50C88020}"/>
+					</Node>
+					<Node name="1">
+						<Node name="editor">
+							<Node name="0">
+								<Node name="toolbox">
+									<Prp name="active" type="S" value="Test Actions"/>
+								</Node>
+							</Node>
+							<Prp name="editor" type="S" value="{2C898914-3DE3-4DC6-814D-E99A4AD9B63A}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{0386C11E-0FA5-43A9-A104-F928FBB28DC2}"/>
+					</Node>
+					<Node name="2">
+						<Node name="editor">
+							<Node name="0">
+								<Prp name="col" type="I" value="11"/>
+								<Prp name="line" type="I" value="5"/>
+								<Prp name="sellength" type="I" value="0"/>
+								<Prp name="selstart" type="I" value="55"/>
+								<Prp name="windowchar" type="I" value="0"/>
+								<Prp name="windowline" type="I" value="0"/>
+							</Node>
+							<Prp name="editor" type="S" value="{DC93D407-E75D-4CE6-A193-C5260BF1C0F9}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{D7B407CC-B4CC-4413-A9F0-E6E956510122}"/>
+					</Node>
+					<Node name="3">
+						<Node name="editor">
+							<Node name="0"/>
+							<Prp name="editor" type="S" value="{03014DB6-B84E-4392-91C3-E9568A6AEF98}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{679C9172-8B92-4BE8-9668-4653B5D675C3}"/>
+					</Node>
+					<Node name="4">
+						<Node name="editor">
+							<Node name="0"/>
+							<Prp name="editor" type="S" value="{340B2BAC-8A71-4FB4-817D-C5EF1DDE52D3}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{1581AD84-C692-4AB9-AB6B-069D023E5FD8}"/>
+					</Node>
+					<Prp name="docking" type="H" value="617162696E00000001000000530400007801730C74F177F6E66480023120ADC0CCC0F0991126828FE66281C8DEF17EF6DEBDF5A3F3E2CEEB574ADFC872325E041A01440CDD0E15A78EB8B5786DFFB65467D147E12F0F8062F9203D408D3E4C20060A801A872286C2F90F058780CE3B019441E7A32846E7B00205E64305FBBB05AF8A26DCF1DC69B0C7BAA8E983D903A0783B480EDD615C40B190D4E292D414C7828262B03C48196E80EE24743E6E9D509959505AA4B353E7B1ED31DF46DF97B3BC6E6EB37A0014C7EA4490BF404E34A4A7EBD8AF4CBE13FBFC99CFC2C947D5B83F1EF889D775A17999F471DD5C605080C0365F4666BF1D939C271E7E19D695F57EC603A018D6B0E3004A3827E62483C28F1EC1B719681F08ACD1E63629ECDAE2DF587BF4BDECBDA0CB0F8062581D280794803950C15CDFC854DFC8C0D044C1D0C0CAD8CCCAD45821C0971ECE26983181AE8403003222D119"/>
+					<Prp name="enabled" type="B" value="0"/>
+				</Node>
 			</Node>
 			<Node name="{78a745b3-10ae-4253-9f16-55a8bcaf43c6}">
 				<Prp name="history" type="S" value=""/>
@@ -38,13 +91,19 @@
 			<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
 				<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
 					<Node name="{561c2f80-54e8-4962-84ac-4475bc9fc832}">
-						<Node name="expanding"/>
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E000000010000001C000000780163626060608462200506CC501A0000980008"/>
+						</Node>
 					</Node>
 				</Node>
 			</Node>
 			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
 				<Node name="{00000000-0000-0000-0000-000000000000}">
-					<Node name="{d7b407cc-b4cc-4413-a9f0-e6e956510122}"/>
+					<Node name="{d7b407cc-b4cc-4413-a9f0-e6e956510122}">
+						<Prp name="bottom" type="I" value="40"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
 				</Node>
 			</Node>
 		</Node>
