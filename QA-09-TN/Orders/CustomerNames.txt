@@ -1,0 +1,6 @@
+Vasya,Sunny,Ukraine,Kiev,03039,45638562447
+Petya,Windy,Uganda,Mazambik,5674,057653737
+Katya,Pariotic,Mexico,Mexico City,5643,756383755
+Dart,Stars,Galaxy far far away,Cosmos,6666,111111111111
+Simpson,Alley,Springfield,USA,4563,88888888888
+Tanya,Homesweethome,Kiev,Ukraine,45633,333756560968

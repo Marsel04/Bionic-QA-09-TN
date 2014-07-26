@@ -41,9 +41,19 @@
 				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
 				<Prp name="typename" type="S" value="Project"/>
 			</Node>
+			<Node name="item0000000001">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Orders\Orders.mds"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{0F7F9A65-CBE5-48B2-9573-652FE58EB1E6}"/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
 		</Node>
 		<Node name="files">
 			<Node name="hw_notepad\hw_notepad.mds"/>
+			<Node name="orders\orders.mds"/>
 		</Node>
 		<Node name="folders">
 			<Node name="folders"/>
@@ -64,6 +74,14 @@
 					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="index" type="I" value="0"/>
 					<Prp name="key" type="S" value="{97290D82-DF52-4289-B0FB-865D4513DDE6}"/>
+					<Prp name="stoponerror" type="B" value="0"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000001">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="index" type="I" value="1"/>
+					<Prp name="key" type="S" value="{0F7F9A65-CBE5-48B2-9573-652FE58EB1E6}"/>
 					<Prp name="stoponerror" type="B" value="0"/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>

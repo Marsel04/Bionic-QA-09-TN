@@ -24,7 +24,7 @@
 				<Node name="{02542b04-194a-4903-b727-27ddea5f3f24}"/>
 			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{36004A97-8FD7-4276-A412-4D4C0A1AAB3F}"/>
+				<Prp name="activity" type="S" value="{B8573338-7756-405E-8511-2B912647DF61}"/>
 				<Prp name="default project" type="S" value="{97290D82-DF52-4289-B0FB-865D4513DDE6}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
@@ -36,7 +36,17 @@
 				<Node name="workspace"/>
 			</Node>
 			<Node name="{78a745b3-10ae-4253-9f16-55a8bcaf43c6}">
-				<Prp name="history" type="S" value=""/>
+				<Node name="item_0">
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="expression" type="S" value="driver.Value(0)"/>
+					<Prp name="index" type="I" value="0"/>
+				</Node>
+				<Node name="item_1">
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="expression" type="S" value="driver.Value(1)"/>
+					<Prp name="index" type="I" value="1"/>
+				</Node>
+				<Prp name="history" type="S" value="driver.Value(1)&#xA;driver.Value(0)"/>
 			</Node>
 			<Node name="{86873e45-42bf-4c44-8fbd-d6bdfbfd5189}"/>
 			<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
@@ -93,6 +103,7 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+					<Node name="{b8573338-7756-405e-8511-2b912647df61}"/>
 				</Node>
 			</Node>
 		</Node>
